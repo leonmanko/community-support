@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discussion - Forum</title>
+  <link rel="stylesheet" href="post.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="category.html">Catégories</a></li>
+        <li><a href="post.html" class="active">Discussion</a></li>
+        <li><a href="new post.html">nouvelle publication</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="post-container">
+      <div class="post-header">
+        <h1 class="post-title">Titre de la discussion</h1>
+        <p class="post-author">Publié par <span class="author-name">John Doe</span></p>
+        <p class="post-date">Le 01/01/2023</p>
+      </div>
+
+      <div class="post-content">
+        <p>Contenu de la discussion...</p>
+      </div>
+
+      <div class="reply-container">
+        <h2>Réponses</h2>
+        <div class="reply-list">
+          <!-- Les réponses seront générées ici -->
+        </div>
+
+        <div class="new-reply">
+          <h3>Ajouter une réponse</h3>
+          <form class="reply-form">
+            <textarea placeholder="Votre réponse..." required></textarea>
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Forum. Tous droits réservés.</p>
+  </footer>
+
+  <script src="post.js"></script>
+</body>
+</html>
+
+
+
+  

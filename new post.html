@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nouvelle publication</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="new post.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="new-post.html" class="active">Nouvelle publication</a></li>
+        <li><a href="post.html">Publications</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="new-post-container">
+      <h1>Nouvelle publication</h1>
+      <form class="new-post-form">
+        <div class="form-group">
+          <label for="title">Titre :</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="content">Contenu :</label>
+          <textarea id="content" name="content" rows="10" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="author">Auteur :</label>
+          <input type="text" id="author" name="author" required>
+        </div>
+        <button type="submit" class="submit-btn">Publier</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mon Blog. Tous droits réservés.</p>
+  </footer>
+
+  <script src="new post.js"></script>
+</body>
+</html>
+
+
